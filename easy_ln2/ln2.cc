@@ -2,9 +2,9 @@
 #include <math.h>
 
 int main() {
-    float num = 5;
+    float num = 0.3;
 
-    float ln2 = log(2.0);
+    float ln2 = log(2);
     float log2_result = log(num) / ln2;
 
     // Вывод результата
