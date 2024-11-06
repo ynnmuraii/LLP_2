@@ -1,0 +1,4 @@
+﻿  ln2.cc
+C:\Users\tihoo\Desktop\Study\Programming\LLP_2\easy_ln2\ln2.cc(7,15): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\tihoo\Desktop\Study\Programming\LLP_2\easy_ln2\ln2.cc(8,23): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  easy_ln2.vcxproj -> C:\Users\tihoo\Desktop\Study\Programming\LLP_2\easy_ln2\x64\Debug\easy_ln2.exe
