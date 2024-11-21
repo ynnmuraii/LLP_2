@@ -114,8 +114,12 @@ error_x_out_of_range:
 
     jmp task3
     
-task3: ; Решение уравнения cos(ln(x + a)) = b
-
+task3: 
+    ; Изначально cos(ln(x + a)) = b -> Решение -> x = e^arccos(b)-a
+    ; Т.к. arccos нет, то переписываем через arctan: arccos(x) = 2*a1ёrctan(sqrt( (1-x)/(1+x)) )
+    ; x = e^2*arctan(sqrt( (1-b)/(1+b)) ) -a
+    ; ПОЛИЗ e 2 arctan sqrt 1 b - 1 b + / * ^ a -
+    
     ; Вычисляем 1 - b
     fld1                           ; ST0 = 1.0
     fld dword [b3]                 ; ST0 = b, ST1 = 1.0

@@ -7,7 +7,6 @@ int main() {
     float ln2 = log(2);
     float log2_result = log(num) / ln2;
 
-    // Вывод результата
     printf("Log2(%f) = %f\n", num, log2_result);
 
     return 0;
